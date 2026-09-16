@@ -1,6 +1,6 @@
 # Reviewer checklist - điền khi kiểm bài người khác
 
-Người gán: ______   Người kiểm: ______   Ngày: ______
+Người gán: Nguyễn Quang Tùng   Người kiểm: Nguyễn Quang Tùng  Ngày: 16/09/2026
 
 Chạy trước khi soi bằng mắt:
 
@@ -12,17 +12,17 @@ python3 tools/visibility_report.py --labels dataset/labels/train --compare <bài
 
 | | Mục kiểm | Đạt? | Ghi chú / ảnh nào |
 | --- | --- | --- | --- |
-| 1 | Mọi người trong ảnh đều có đủ 17 điểm, không ai bị thiếu | ☐ | |
-| 2 | Bật đường nối: không có xương nào cắt chéo ở vai hoặc hông | ☐ | |
-| 3 | Không có xương nào kéo dài sang một cơ thể khác | ☐ | |
-| 4 | Khớp bị che dùng `v = 1` **và có chấm**, không phải `v = 0` | ☐ | |
-| 5 | `v = 0` chỉ xuất hiện ở khớp thật sự ra ngoài mép ảnh | ☐ | |
-| 6 | Không có dấu hiệu dùng `Hidden` (điểm `v = 2` nằm ở chỗ vô lý) | ☐ | |
-| 7 | Export đúng **COCO Keypoints 1.0**: mảng `keypoints` có 51 số mỗi người | ☐ | |
-| 8 | Bản YOLO Pose: mỗi dòng 56 số, `kpt_shape: [17, 3]` | ☐ | |
-| 9 | Visibility report đã nộp, và hai bảng đã được đặt cạnh nhau | ☐ | |
-| 10 | Mọi ca không rõ đều được ghi trong `GUIDELINE_MINI.md` | ☐ | |
-| 11 | `check_pose_labels.py` chạy 0 lỗi | ☐ | |
+| 1 | Mọi người trong ảnh đều có đủ 17 điểm, không ai bị thiếu | Đạt | |
+| 2 | Bật đường nối: không có xương nào cắt chéo ở vai hoặc hông | Đạt | |
+| 3 | Không có xương nào kéo dài sang một cơ thể khác | Đạt | |
+| 4 | Khớp bị che dùng `v = 1` **và có chấm**, không phải `v = 0` | Đạt | |
+| 5 | `v = 0` chỉ xuất hiện ở khớp thật sự ra ngoài mép ảnh | Đạt | |
+| 6 | Không có dấu hiệu dùng `Hidden` (điểm `v = 2` nằm ở chỗ vô lý) | Đạt | |
+| 7 | Export đúng **COCO Keypoints 1.0**: mảng `keypoints` có 51 số mỗi người | Đạt | |
+| 8 | Bản YOLO Pose: mỗi dòng 56 số, `kpt_shape: [17, 3]` | đạt | |
+| 9 | Visibility report đã nộp, và hai bảng đã được đặt cạnh nhau | Đạt | |
+| 10 | Mọi ca không rõ đều được ghi trong `GUIDELINE_MINI.md` | Đạt | |
+| 11 | `check_pose_labels.py` chạy 0 lỗi | Đạt | |
 
 ## Lỗi tìm được
 
@@ -39,3 +39,4 @@ mở đúng chỗ đó được mà không cần hỏi lại.
 
 - Lỗi lặp đi lặp lại nhiều nhất của bài này:
 - Nó là lỗi **thao tác** hay lỗi **guideline chưa rõ**?
+ 
